@@ -1,0 +1,11 @@
+Grass Toon low-poly 3d model ready for Virtual Reality (VR), Augmented Reality (AR), games and other real-time apps.
+
+This package contain 300 unique grass models ready to use in game or other real time application.
+
+All assets unwrapped and textured. Easy to change diffuse color.
+
+Included: 
+-300 assets. 
+-Fbx, obj and max formats. 
+-8 diffuse textures with 4k and 0.5k sizes in png format. 
+- Psd file.
