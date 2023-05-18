@@ -117,7 +117,7 @@ Material:
     - alphaLock: 1
     - ambientCO: 0.4
     - ambientCOShadow: 0.4
-    - bladeHeight: 4.05
+    - bladeHeight: 3.27
     - bladeLateralCurve: 0.09
     - bladeSharp: 0.54
     - bladeStiffness: 0.21
@@ -149,7 +149,7 @@ Material:
     - noiseScale: {r: 1, g: 1, b: 0.5, a: 0}
     - terrainChunkSize: {r: 50, g: 50, b: 0, a: 0}
     - terrainSize: {r: 500, g: 500, b: 500, a: 0}
-    - variance: {r: 0.55, g: 0.4, b: 0.55, a: 0.4}
+    - variance: {r: 0.16, g: 0.4, b: 0.55, a: 0.4}
     - windDir: {r: -0.5, g: -0.4, b: -0.3, a: 0}
     - windDir2: {r: 0.4, g: 1, b: 0.3, a: 1}
     - windTint: {r: 1, g: 1, b: 0.92517304, a: 0.5764706}
