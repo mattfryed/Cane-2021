@@ -8,12 +8,13 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ground1 1
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ValidKeywords:
+  m_Shader: {fileID: 4800000, guid: 87f7297eebdfd984b858c7480aac13b6, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _CAMERAFADEENABLED_ON
   - _GLOSSYREFLECTIONS_OFF
   - _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
   - _SPECULARHIGHLIGHTS_OFF
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -23,6 +24,18 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AudioSpectrum:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AudioSpectrum1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -43,11 +56,35 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _FinalTexture:
+        m_Texture: {fileID: 2800000, guid: 404fa8def46b1c447817e1ebdaa7144e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicSmoothness:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise01:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise02:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseDistortion:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -59,25 +96,93 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex4coord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex4coord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AffectorCount: 5
+    - _AudioAmplitudeEmissionPower: 1
+    - _AudioAmplitudeEmissionPower1: 1
+    - _AudioAmplitudeEnabled: 0
+    - _AudioAmplitudeEnabled1: 0
+    - _AudioAmplitudeOffsetPower: 1
+    - _AudioAmplitudeOffsetPower1: 1
+    - _AudioMaskAffectsAmplitude: 0
+    - _AudioMaskAffectsAmplitude1: 0
+    - _AudioMaskEnabled: 0
+    - _AudioMaskEnabled1: 0
+    - _AudioMaskExp: 1
+    - _AudioMaskExp1: 1
+    - _AudioMaskMultiply: 1
+    - _AudioMaskMultiply1: 1
+    - _AudioSpectrumDistanceTiling: 4
+    - _AudioSpectrumDistanceTiling1: 4
+    - _AudioSpectrumEnabled: 0
+    - _AudioSpectrumEnabled1: 0
+    - _AudioSpectrumPower: 1
+    - _AudioSpectrumPower1: 1
     - _BumpScale: 1
+    - _CameraFadeDistance: 1
+    - _CameraFadeEnabled: 1
+    - _CameraFadeOffset: 0.2
+    - _CloseFadeDistance: 0.65
+    - _CloseFadeEnabled: 0
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
+    - _Distance: 1
+    - _DistancePower: 2.3
     - _DstBlend: 0
+    - _FinalExp: 1.28
+    - _FinalMaskMultiply: 2.16
+    - _FinalPower: 6.7
     - _GlossMapScale: 1
     - _Glossiness: 0.583
     - _GlossyReflections: 0
-    - _Metallic: 0.157
+    - _IgnoreYAxis: 0
+    - _MaskAffectsTransparency: 0
+    - _MaskOpacityPower: 1
+    - _Metallic: -4.31
+    - _MetallicSmoothnessRandomOffset: 0
     - _Mode: 0
+    - _Noise01ScrollSpeed: 0.1
+    - _Noise02ScrollSpeed: 0.15
+    - _NoiseDistortionPower: 0.1
+    - _NoiseDistortionScrollSpeed: 0.05
+    - _NoisePower: 4
+    - _NoiseTiling: 0.25
     - _OcclusionStrength: 1
+    - _OffsetPower: 0.73
+    - _OffsetYLock: 0
     - _Parallax: 0.02
+    - _RampEnabled: 0
+    - _Smoothness: 0
     - _SmoothnessTextureChannel: 1
+    - _SoftParticleDistance: 0.25
     - _SpecularHighlights: 0
     - _SrcBlend: 1
     - _UVSec: 0
+    - _XYUV: 0
     - _ZWrite: 1
+    - _ZYUV: 0
+    - __dirty: 1
     m_Colors:
     - _Color: {r: 1, g: 0.24965353, b: 0.08176094, a: 1}
+    - _ColorTint: {r: 0.745283, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0.4245283, g: 0, b: 0, a: 1}
+    - _FinalColor: {r: 0.7735849, g: 0, b: 0, a: 1}
+    - _FinalColor2: {r: 0.5566038, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

@@ -117,9 +117,9 @@ Material:
     - alphaLock: 1
     - ambientCO: 0.4
     - ambientCOShadow: 0.4
-    - bladeHeight: 3.27
+    - bladeHeight: 4.15
     - bladeLateralCurve: 0.09
-    - bladeSharp: 0.54
+    - bladeSharp: 0.47
     - bladeStiffness: 0.21
     - bladeVerticalCurve: 0.17
     - bladeWidth: 0.04
