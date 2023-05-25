@@ -1,0 +1,17 @@
+# Blender 3.5.1 MTL File: 'canesfry-simp.blend'
+# www.blender.org
+
+newmtl Material.003
+Kd 0.800000 0.493582 0.051111
+Ks 0.500000 0.500000 0.500000
+Ke 0.445129 0.205195 0.071682
+Ni 1.450000
+d 1.000000
+illum 3
+Pr 0.620275
+Pm 0.292096
+Ps 0.000000
+Pc 0.491409
+Pcr 0.335842
+aniso 0.000000
+anisor 0.000000
