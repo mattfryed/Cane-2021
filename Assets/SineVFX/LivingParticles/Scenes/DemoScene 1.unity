@@ -958,7 +958,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1087613246199264, guid: 8b36be4fc70120f439168e08cf6f0829, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4272417902632306, guid: 8b36be4fc70120f439168e08cf6f0829, type: 3}
       propertyPath: m_RootOrder
@@ -3636,7 +3636,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1087613246199264, guid: 8b36be4fc70120f439168e08cf6f0829, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4272417902632306, guid: 8b36be4fc70120f439168e08cf6f0829, type: 3}
       propertyPath: m_RootOrder
@@ -3863,6 +3863,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 198714869029000786, guid: 8b36be4fc70120f439168e08cf6f0829, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 198714869029000786, guid: 8b36be4fc70120f439168e08cf6f0829, type: 3}
       propertyPath: ShapeModule.m_TextureClipChannel
       value: 3
       objectReference: {fileID: 0}
@@ -3876,7 +3880,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 198714869029000786, guid: 8b36be4fc70120f439168e08cf6f0829, type: 3}
       propertyPath: NoiseModule.positionAmount.scalar
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 198714869029000786, guid: 8b36be4fc70120f439168e08cf6f0829, type: 3}
       propertyPath: NoiseModule.rotationAmount.scalar
@@ -3892,11 +3896,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 198714869029000786, guid: 8b36be4fc70120f439168e08cf6f0829, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 3000
+      value: 6000
       objectReference: {fileID: 0}
     - target: {fileID: 198714869029000786, guid: 8b36be4fc70120f439168e08cf6f0829, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
-      value: 20
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 198714869029000786, guid: 8b36be4fc70120f439168e08cf6f0829, type: 3}
       propertyPath: InitialModule.startRotation.scalar
@@ -6807,7 +6811,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1087613246199264, guid: 8b36be4fc70120f439168e08cf6f0829, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4272417902632306, guid: 8b36be4fc70120f439168e08cf6f0829, type: 3}
       propertyPath: m_RootOrder
@@ -8824,7 +8828,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 28bd81ea6dadcd24cb67c900a324d128, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28bd81ea6dadcd24cb67c900a324d128, type: 3}
