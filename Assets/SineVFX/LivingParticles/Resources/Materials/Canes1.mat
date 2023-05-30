@@ -129,7 +129,7 @@ Material:
     m_Colors:
     - _Affector: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _ColorTint: {r: 0.8773585, g: 0.65719116, b: 0.32694018, a: 1}
+    - _ColorTint: {r: 0.990566, g: 0.7332371, b: 0.34264854, a: 1}
     - _FinalColor: {r: 1, g: 0, b: 0, a: 1}
     - _FinalColor2: {r: 0, g: 0, b: 0, a: 1}
     - _FinalUnlitColor: {r: 0, g: 0, b: 0, a: 1}
