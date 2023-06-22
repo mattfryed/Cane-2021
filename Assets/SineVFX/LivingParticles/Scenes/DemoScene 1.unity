@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.004447952, g: 0.004447952, b: 0.004447952, a: 1}
+  m_IndirectSpecularColor: {r: 0.0044479445, g: 0.0044479445, b: 0.0044479445, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4846,12 +4846,12 @@ GameObject:
   - component: {fileID: 564042571}
   - component: {fileID: 564042572}
   m_Layer: 0
-  m_Name: Left light (2)
+  m_Name: logo light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &564042571
 Transform:
   m_ObjectHideFlags: 0
@@ -7858,7 +7858,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1242742117
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8708,7 +8708,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 198714869029000786, guid: 8b36be4fc70120f439168e08cf6f0829, type: 3}
       propertyPath: InitialModule.startSize.scalar
-      value: 0.19
+      value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: 198714869029000786, guid: 8b36be4fc70120f439168e08cf6f0829, type: 3}
       propertyPath: NoiseModule.scrollSpeed.scalar
@@ -8736,7 +8736,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 198714869029000786, guid: 8b36be4fc70120f439168e08cf6f0829, type: 3}
       propertyPath: InitialModule.startSize.minScalar
-      value: 0.15
+      value: 2.2
       objectReference: {fileID: 0}
     - target: {fileID: 198714869029000786, guid: 8b36be4fc70120f439168e08cf6f0829, type: 3}
       propertyPath: NoiseModule.positionAmount.scalar
@@ -8756,7 +8756,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 198714869029000786, guid: 8b36be4fc70120f439168e08cf6f0829, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 500
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 198714869029000786, guid: 8b36be4fc70120f439168e08cf6f0829, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
@@ -8953,11 +8953,15 @@ PrefabInstance:
     - target: {fileID: 199589298145142876, guid: 8b36be4fc70120f439168e08cf6f0829, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: -2432090755550338912, guid: 3254cd2c2155f47129c63424bc8c804b, type: 3}
+      objectReference: {fileID: 4300000, guid: 8de8f43bc0c1943808438cdcf81315d6, type: 2}
     - target: {fileID: 199589298145142876, guid: 8b36be4fc70120f439168e08cf6f0829, type: 3}
       propertyPath: m_Mesh1
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4300000, guid: 9ae0927b029294730a6870c529b017d9, type: 2}
+    - target: {fileID: 199589298145142876, guid: 8b36be4fc70120f439168e08cf6f0829, type: 3}
+      propertyPath: m_Mesh2
+      value: 
+      objectReference: {fileID: 4300000, guid: 7aa967805b74047b9bf8512e313c2210, type: 2}
     - target: {fileID: 199589298145142876, guid: 8b36be4fc70120f439168e08cf6f0829, type: 3}
       propertyPath: m_Flip.y
       value: 0
@@ -9021,7 +9025,7 @@ PrefabInstance:
     - target: {fileID: 199589298145142876, guid: 8b36be4fc70120f439168e08cf6f0829, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a87fc8b8aa6fff747a5bfecaf43ff53a, type: 2}
+      objectReference: {fileID: 2100000, guid: c98fa6cab3025402d9be0c1b02fb7532, type: 2}
     - target: {fileID: 665755513374486706, guid: 8b36be4fc70120f439168e08cf6f0829, type: 3}
       propertyPath: m_RootOrder
       value: 20

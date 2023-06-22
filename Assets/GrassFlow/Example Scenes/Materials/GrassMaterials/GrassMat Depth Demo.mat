@@ -10,10 +10,8 @@ Material:
   m_Name: GrassMat Depth Demo
   m_Shader: {fileID: 4800000, guid: 958b9cc04b121c443b428e3413ab8ff7, type: 3}
   m_ValidKeywords:
-  - MULTI_SEGMENT
   - RENDERMODE_MESH
   m_InvalidKeywords:
-  - ALPHALOCK_ON
   - RENDERMODE_TERRAIN
   - UNITY_EDITOR
   - _RENDERMODE_TERRAIN
